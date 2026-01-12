@@ -8,7 +8,7 @@ _modulever='1.0.2'
 _origver="${_modulever}-lnd25.1~rc1.7"
 _pkgver="$(printf '%s' "$_origver" | tr -- '-~' '_.')"
 pkgver="$_pkgver"
-pkgrel=1
+pkgrel=2
 pkgdesc='Kernel module sources (DKMS) for LoongGPU kernel-mode drivers'
 arch=('loong64')
 url='https://pkg.loongnix.cn/'
@@ -17,7 +17,6 @@ depends=('dkms')
 makedepends=('patch')
 provides=()
 conflicts=()
-install="$_pkgname".install
 
 _debname="${_pkgname}_${_origver}_loong64.deb"
 source=(

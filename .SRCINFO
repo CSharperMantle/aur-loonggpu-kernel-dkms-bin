@@ -1,9 +1,8 @@
 pkgbase = loonggpu-kernel-dkms-bin
 	pkgdesc = Kernel module sources (DKMS) for LoongGPU kernel-mode drivers
 	pkgver = 1.0.2_lnd25.1.rc1.7
-	pkgrel = 1
+	pkgrel = 2
 	url = https://pkg.loongnix.cn/
-	install = loonggpu-kernel-dkms.install
 	arch = loong64
 	license = LicenseRef-Proprietary
 	makedepends = patch
